@@ -108,8 +108,7 @@ nav button {
 	font-size: 16px;
 	font-weight: bold;
 	background-color: rgba(0, 0, 0, 0.644);
-	border-color: rgba(245, 245, 245, 0.418);
-	border-width: 1px;
+	border: 1px solid rgba(245, 245, 245, 0.418);
 	padding: 5px 5px 5px 5px;
 	width: 90px;
 	border-radius: 4px;
@@ -188,7 +187,7 @@ nav button {
 	border-radius: 4px;
 	text-align: left;
 	position: relative;
-	padding: 11px 13px 13px 13px;
+	padding: 11px 25px 13px 18px;
 	margin-left: 3px;
 	font-weight: bold;
 	border-color: transparent;
@@ -201,8 +200,9 @@ nav button {
 	font-size: 15px;
 	background-color: rgba(0, 0, 0, 0.6);
 	font-weight: 900;
+    color: white;
 	border-radius: 4px;
-	padding: 17px 16px 16px 12px;
+	padding: 22px 45px 16px 12px;
 	border: 1px rgba(255, 255, 255, 0.5) solid;
 	width: 300px;
 	text-align: left;
@@ -214,7 +214,7 @@ nav button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	max-width: 50vw;
+	max-width: 80vw;
 	margin: auto;
 	color: white;
 }
@@ -224,23 +224,25 @@ nav button {
 }
 
 .imgsec img{
-	width: 30vw;
+	width: 35vw;
+    align-items: center;
 	position: relative;
 	z-index: 1;
 }
 
 .imgsec video{
 	position: absolute;
-	top: 51px;
-	right: 0;
+	top: 88px;
+    width: 25vw;
+	left: 80px;
 }
 
 .first> div:nth-child(1){
-	font-size: 48px;
+	font-size: 24px;
 	font-weight: bolder;	
 }
 
 .first> div:nth-child(1){
-	font-size: 48px;
+	font-size: 24px;
 	font-weight: bolder;
 }
