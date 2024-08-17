@@ -5,4 +5,4 @@ Some bugs that need clarification:
 2. Not as dynamic and responsive to changes in window as original
 3. Main page background mosaic gradient(Original uses 2 linear gradients that stop in the middle.(from top-to-mid and bottom-to-mid) (I have used Radial gradient; creates black to transparent gradient on both sides)
 
-   
+Thanks to assisstance from CodeWithHarry's Netflix Clone Tutorial(available on YouTube and GitHub repo).
